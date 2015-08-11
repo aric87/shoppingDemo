@@ -1,0 +1,17 @@
+.container{
+    width:500px;
+    margin:100px auto;
+}
+
+*{
+    font-size:20px;
+}
+ul{
+    list-style:none;
+    text-align:right;
+    width:200px;
+    margin:10px; 
+}
+li.checked{
+    text-decoration:line-through;
+}
