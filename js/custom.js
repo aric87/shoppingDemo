@@ -21,14 +21,7 @@ $('#itemList').on('click','.deleteButton', function(){
 $('#itemList').on('dblclick','li',function(){
 	$(this).toggleClass('checked');
 });
-$('#itemList').on('dblclick','li',function(){
-	if($(this).hasClass('checked')){
-		$(this).removeClass('checked');	
-	} else{
-		$(this).addClass('checked');
-	}
-	
-});
 
 
-});
+
+}); 
